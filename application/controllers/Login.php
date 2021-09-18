@@ -26,8 +26,8 @@ class Login extends CI_Controller
 			$this->login_users->LoginData($email,$password,$nama_perusahaan);
 		}
 		$data = array(
-			'title' => 'Login Users', 
-			'subtitle' => 'Login Users',
+			'title' => 'Login Userss', 
+			'subtitle' => 'Login Userss',
 			'list_perusahaan' => $this->users->getmasterperusahaan()->result_array()
 		);
 		$this->load->view('users/login', $data);
